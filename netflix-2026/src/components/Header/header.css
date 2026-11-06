@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header_container{
+    display: flex;
+    gap: 120px;
+    background-color: black;
+    color: white;
+    position: sticky;
+    top:0;
+    height: 10vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.header_left ul {
+display: flex;
+list-style: none;
+gap: 25px;
+align-items: center;
+justify-content: center;
+
+}
+.header_right ul{
+    display: flex;
+    list-style: none;
+    gap: 15px;
+}
+
+.header_right ul li{
+white-space: nowrap;
+}
+.header_left ul li{
+white-space: nowrap;
+}

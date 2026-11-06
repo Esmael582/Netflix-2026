@@ -1,0 +1,32 @@
+.main_footer{
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+ /* color: white;*/
+}
+
+.main_footer ul{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+list-style: none;
+
+}
+
+.social_icons ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+   
+}
+#copy_right{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+
+
+
