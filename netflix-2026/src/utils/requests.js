@@ -1,5 +1,6 @@
 //The instructor is creating a central place to store all the TMDB API endpoints that the Netflix application will request....
-const API_KEY = "process.env.REACT_APP_KEY";// this stores our API KEY BETEDEGAGAMI slemntekemew request ...store adrgo variable metekemu yeteshalle nw
+const API_KEY = process.env.REACT_APP_KEY;
+// this stores our API KEY BETEDEGAGAMI slemntekemew request ...store adrgo variable metekemu yeteshalle nw
 
 
 /*Why did he create an object?
@@ -52,4 +53,4 @@ Endpoint	What it retrieves
 The instructor selected these endpoints based on the different sections he wants to display on Netflix.
 */ 
 
-
+export default requests;

@@ -7,5 +7,5 @@ const instance = axios.create({
 })
 
 
-//axios.js → Configures the HTTP client and base URL.
+//axios.js → Configures the HTTP client and base URL.S
 export default instance;
